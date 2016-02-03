@@ -1,0 +1,22 @@
+1 02-03 01:26:35.486 17721-17721/edu.dtcc.jshaffe1.activitylifecycle D/Jeff: 1 onCreate has run
+2 02-03 01:26:35.491 17721-17721/edu.dtcc.jshaffe1.activitylifecycle D/Jeff: onStart has run
+3 02-03 01:26:35.498 17721-17721/edu.dtcc.jshaffe1.activitylifecycle D/Jeff: onResume has run
+4 02-03 01:26:38.692 17721-17721/edu.dtcc.jshaffe1.activitylifecycle D/Jeff: onPause has run
+5 02-03 01:26:39.089 17721-17721/edu.dtcc.jshaffe1.activitylifecycle D/Jeff: onStop has run
+6 02-03 01:26:42.387 17721-17721/edu.dtcc.jshaffe1.activitylifecycle D/Jeff: onRestart has run
+7 02-03 01:26:42.405 17721-17721/edu.dtcc.jshaffe1.activitylifecycle D/Jeff: onStart has run
+8 02-03 01:26:42.410 17721-17721/edu.dtcc.jshaffe1.activitylifecycle D/Jeff: onResume has run
+9 02-03 01:26:48.544 17721-17721/edu.dtcc.jshaffe1.activitylifecycle D/Jeff: onPause has run
+10 02-03 01:26:48.801 17721-17721/edu.dtcc.jshaffe1.activitylifecycle D/Jeff: onStop has run
+11 02-03 01:26:51.166 17721-17721/edu.dtcc.jshaffe1.activitylifecycle D/Jeff: onRestart has run
+12 02-03 01:26:51.172 17721-17721/edu.dtcc.jshaffe1.activitylifecycle D/Jeff: onStart has run
+13 02-03 01:26:51.175 17721-17721/edu.dtcc.jshaffe1.activitylifecycle D/Jeff: onResume has run
+14 02-03 01:26:53.053 17721-17721/edu.dtcc.jshaffe1.activitylifecycle D/Jeff: onPause has run
+15 02-03 01:26:53.056 17721-17721/edu.dtcc.jshaffe1.activitylifecycle D/Jeff: onStop has run
+16 02-03 01:26:53.060 17721-17721/edu.dtcc.jshaffe1.activitylifecycle D/Jeff: onDestroy has run
+17 02-03 01:26:53.113 17721-17721/edu.dtcc.jshaffe1.activitylifecycle D/Jeff: onCreate has run
+18 02-03 01:26:53.121 17721-17721/edu.dtcc.jshaffe1.activitylifecycle D/Jeff: onStart has run
+19 02-03 01:26:53.128 17721-17721/edu.dtcc.jshaffe1.activitylifecycle D/Jeff: onResume has run
+20 02-03 01:26:55.347 17721-17721/edu.dtcc.jshaffe1.activitylifecycle D/Jeff: onPause has run
+21 02-03 01:26:56.391 17721-17721/edu.dtcc.jshaffe1.activitylifecycle D/Jeff: onStop has run
+22 02-03 01:26:56.398 17721-17721/edu.dtcc.jshaffe1.activitylifecycle D/Jeff: onDestroy has run

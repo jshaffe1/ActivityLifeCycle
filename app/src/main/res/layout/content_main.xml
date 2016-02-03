@@ -10,10 +10,59 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="edu.dtcc.jshaffe1.activitylifecycle.MainActivity"
-    tools:showIn="@layout/activity_main">
+    tools:showIn="@layout/activity_main"
+    android:id="@+id/myView">   <!-- Added to have a view to reference when creating snackbars -->
 
+    <!-- Will contain 10 most recent states of the app -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvStatus"
+        android:textSize="20sp"
+        android:lines="10"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/tvStatuslbl"
+        android:layout_alignParentStart="true" />
+
+    <!-- Label telling user what is in the messagebox below -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="@string/tvStatuslbl"
+        android:id="@+id/tvStatuslbl"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp" />
+
+    <!-- Button to select snackbars as the type of notification -->
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btnstrSnackbars"
+        android:id="@+id/btnSnackBars"
+        android:layout_below="@+id/tvInstructions"
+        android:layout_alignStart="@+id/tvInstructions" />
+
+    <!-- Button to select toasts as the type of notification -->
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btnstrToasts"
+        android:id="@+id/btnToasts"
+        android:layout_below="@+id/tvInstructions"
+        android:layout_alignEnd="@+id/tvInstructions" />
+
+    <!-- Label instructing user to choose which type of notification they want -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/tvInstructions"
+        android:id="@+id/tvInstructions"
+        android:layout_marginTop="64dp"
+        android:textSize="28sp"
+        android:layout_below="@+id/tvStatus"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
